@@ -16,7 +16,9 @@ But the .sh file needs to be moved out of the blanks_for_pg folder and into `Pro
 |---- new_pg_project.sh
 
 ```
-I did the copying the file explorer. It seems easier.
+I did the copying in the file explorer. It seems easier.
+
+There is now another script: `add_sinatra2project`. It also has a blanks file, but rather than copying loads of things out of this repo, I made the script copy it from your clone. So this script expects to be run in the same folder you ran `git clone` to copy this repo.
 
 ## Make the script file executable
 
